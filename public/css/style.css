@@ -1,0 +1,221 @@
+/* =SUPER DUPER NAV SECTION FOR LOGO
+-------------------------------------------------------------- */
+
+.top-grad{
+    position: absolute;
+    z-index: 80;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.nav_options{
+  padding-left: 35%;
+}
+
+/* =GENERAL
+-------------------------------------------------------------- */
+
+h1 {
+    color: #003a70;
+}
+
+h5 {
+    color:dimgray;
+    font-weight: bold;
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+h1, h2, h4, h5 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.img-cover{
+  width: 100%;
+  height: auto;
+}
+
+/* =NUMBER BULLDOG
+-------------------------------------------------------------- */
+
+#number{
+    align-content: center;
+    font-size: 2.6em;
+}
+
+/* =SECTIONS
+-------------------------------------------------------------- */
+
+.SECT_dash_banner {
+  height: 45em;
+  color: #fff;
+  overflow: hidden;
+}
+
+.SECT_search_banner {
+  height: 15em;
+  color: #fff;
+  overflow: hidden;
+}
+
+.SECT_profile_banner {
+  height: 24em;
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+
+.SECT_dash_news {
+    min-height: 40em;
+    max-height: 40em;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.SECT_search_results{
+  max-height: 100em;
+  min-height: inherit;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.SECT_dash_artelly{
+  max-height: 80em;
+  min-height: inherit;
+  background-color: #e5e2e0;
+  overflow: hidden;
+}
+
+
+.SECT_post_profile{
+    min-height: 40em;
+    max-height: inherit;
+    background-color: #fff;
+}
+
+/* =NEWS
+-------------------------------------------------------------- */
+
+#news, #art_post {
+    display: flex;
+}
+
+.prof-photo img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.news-inner {
+    background-color: #ffc200;
+    padding: 15em;
+    align-content: center;
+}
+
+.artelly-photo img {
+  display: block;
+  margin: 0 auto;
+  height: 380px;
+  width: 350px;
+  border-radius: 4px 4px 0 0;
+}
+
+/* =POSTS
+-------------------------------------------------------------- */
+
+.modal_pic{
+  height: 2em;
+  width: 2em;
+  object-fit: contain;
+}
+
+.post_modal{
+  height: 76% important!; 
+  max-height: 700px important!;
+
+}
+
+/* =PROFILE
+-------------------------------------------------------------- */
+
+.pic_profile{
+    max-height: 430px;
+    max-width: 455px;
+    object-fit: cover;
+    object-position: center;
+    padding-left: 3em;
+    
+}
+
+/* =REGISTER
+-------------------------------------------------------------- */
+
+.centerall{
+  padding-left: 25em;
+  padding-top: 2em;
+}
+
+.centerall div > img {
+  margin-right: 12em;
+  margin-bottom: 4em;
+}
+
+.centerall h1{
+  margin-bottom: 1em;
+}
+
+/* =STARS
+-------------------------------------------------------------- */
+
+
+.text-center {text-align:center;}
+
+a {
+  color: tomato;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
